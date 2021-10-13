@@ -83,14 +83,14 @@ header {
 body {
     font-family: Courier, monospace;
     font-size: 20px;
-    color: rgb(92, 85, 85);
+    color: rgb(#FFF);
     background-image: url(fon.jpg);
     background-attachment: fixed;
     font-weight: bold;
 }
 #web1 {
     width: 955px;
-    color: rgb(92, 85, 85);
+    color: rgb(#FFF);
     margin: 20px auto;
     padding: 0px 5px;
 }
@@ -118,7 +118,7 @@ footer {
 }
 a{
     text-decoration: none;
-    color: rgb(92, 85, 85);
+    color: rgb(220,220,220);
     transition: text-decoration 0,5s ease-in;
 }
 a:hover{
@@ -129,7 +129,7 @@ a:hover{
     background-color: grey;
 }
 header, #navigation, #web1, .table, .form, footer{
-    background-color: rgb(254, 214, 188);
+    background-color: rgb(106,106,106);
     border-width: thick;
     border-style: double;
     border-color: grey;
