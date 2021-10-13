@@ -35,26 +35,8 @@
     .form{
         order: 1;
     }
-    .navigation ul li{
-        display: flex;
-    }
-    .navigation nav ul {
-        display: flex;
-        flex-direction: column; 
-        align-items: left;
-        justify-content: left;
-    }
 }
 @media (min-width: 1000px){
-    .navigation ul li{
-        display: flex;
-    }
-    .navigation nav ul {
-        display: flex;
-        flex-direction: row; 
-        align-items: center;
-        justify-content: center;
-    }
     nav{
         padding: 0px 30px 5px;
     }
@@ -101,14 +83,14 @@ header {
 body {
     font-family: Courier, monospace;
     font-size: 20px;
-    color: rgb(#FFF);
+    color: rgb(92, 85, 85);
     background-image: url(fon.jpg);
     background-attachment: fixed;
     font-weight: bold;
 }
 #web1 {
     width: 955px;
-    color: rgb(#FFF);
+    color: rgb(92, 85, 85);
     margin: 20px auto;
     padding: 0px 5px;
 }
@@ -136,7 +118,7 @@ footer {
 }
 a{
     text-decoration: none;
-    color: rgb(220,220,220);
+    color: rgb(92, 85, 85);
     transition: text-decoration 0,5s ease-in;
 }
 a:hover{
@@ -147,7 +129,7 @@ a:hover{
     background-color: grey;
 }
 header, #navigation, #web1, .table, .form, footer{
-    background-color: rgb(106,106,106);
+    background-color: rgb(254, 214, 188);
     border-width: thick;
     border-style: double;
     border-color: grey;
