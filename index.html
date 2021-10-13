@@ -4,26 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <title>Document</title>
 	<link rel="stylesheet" href="main/mobila.css"> 
 </head>
 <body class="osnova">
-    <header>
-        <div class="shapka">
+    <header class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="col-md-8" id="shapka>
             <div><img src="main/logo.png" alt="Логотип компании" id="main/logoimg" width="100" height="100"></div>
             <div><p>Металика</p></div>
         </div>
     </header> 
-    <div class="navigation">
-    <nav>
-        <ul>
-            <li><a href="#start">Основное </a></li>
-            <li><a href="#form">Форма</a></li>
-            <li><a href="#table">Таблица</a></li>
-        </ul>
-    </nav>
+     <div class="row" id="navigation">
+            <div class="col-md-4"><a href="#start">Основное </a></div>
+            <div class="col-md-4"><a href="#form">Форма</a></div>
+            <div class="col-md-4"><a href="#table">Таблица</a></div>
     </div>
-    <div class="web1">
+    <div class="col-xs-12 col-sm-8 col-md-8" id="web1" >
     <h2><a id="start">Задание 1 </a></h2>
     <ol>
         <li><a href="http://example.com">1 ссылка</a></li><!--1 пункт-->
@@ -45,7 +43,7 @@
         <li><a href="">10 ссылка</a></li><!--10 пункт-->
         <li><a href="https://example.com/" rel="nofollow">11 ссылка</a></li><!--11 пункт-->
         <li><a href="https://example.com/" rel="noindex">12 ссылка</a></li><!--12 пункт-->
-        <li color=white>Тригонометри́ческие фу́нкции — элементарные функции, которые исторически возникли при рассмотрении прямоугольных треугольников и выражали зависимости длин сторон этих треугольников от острых углов при гипотенузе (или, что равнозначно, зависимость хорд и высот от центрального угла дуги в круге). Эти функции нашли широкое применение в самых разных областях науки. По мере развития математики определение тригонометрических функций было расширено, в современном понимании их аргументом может быть произвольное вещественное или комплексное число.<a href="https://ru.wikipedia.org/wiki/Тригонометрические_функции">Полная информация</a><!--13 пункт-->
+        <li>Тригонометри́ческие фу́нкции — элементарные функции, которые исторически возникли при рассмотрении прямоугольных треугольников и выражали зависимости длин сторон этих треугольников от острых углов при гипотенузе (или, что равнозначно, зависимость хорд и высот от центрального угла дуги в круге). Эти функции нашли широкое применение в самых разных областях науки. По мере развития математики определение тригонометрических функций было расширено, в современном понимании их аргументом может быть произвольное вещественное или комплексное число.<a href="https://ru.wikipedia.org/wiki/Тригонометрические_функции">Полная информация</a><!--13 пункт-->
         <p><a id="end">До Второй мировой войны в Германии и во Франции эти функции обозначались так же, как принято в русскоязычных текстах, но потом в литературе на языках этих стран был принят англоязычный вариант записи тригонометрических функций.</a></p>  
         </li>  
         <li><img src="main/tel.jpg" alt="Телец" width="100" height="100" ></li><!--14 пункт-->
@@ -63,8 +61,8 @@
         <li><a href="/">20 ссылка </a></li>   
         <li><a href="/about">21 ссылка</a></li> 
     </ol>
-    </div>
-	<div id="tandf">
+     </div>
+    <div id="tandf">
     <div class="table">
         <h2 id="table">Таблица</h2>
         <table>
@@ -73,7 +71,7 @@
                 <th>Номер 2</th>
                 <th>Номер 3</th>
             </tr>
-            <tr>
+            <tr >
                 <td>Первое место</td>
                 <td colspan="2">Вторе место</td>
             </tr>
@@ -136,3 +134,4 @@
     </div>
 </body>
 </html>
+
